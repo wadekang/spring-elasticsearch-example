@@ -1,0 +1,10 @@
+spring:
+  elasticsearch:
+    url: elasticsearch-lb
+    port: 9200
+    socket-timeout: 60000
+    connect-timeout: 5000
+    maxRetry-timeout: 60000
+
+server:
+  port: 8091
